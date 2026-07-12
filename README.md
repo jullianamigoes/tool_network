@@ -46,6 +46,7 @@ Este script centraliza tareas comunes de diagnóstico y auditoría en un solo lu
 
 ## Estructura del Proyecto
 
+´´´
 Tool_Network/
 ├── menu.bat           # Interfaz principal
 ├── ps1/
