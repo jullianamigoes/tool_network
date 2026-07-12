@@ -46,14 +46,13 @@ Este script centraliza tareas comunes de diagnóstico y auditoría en un solo lu
 
 ## Estructura del Proyecto
 
-´´´
-Tool_Network/
-├── menu.bat           # Interfaz principal
+```text
+herramienta_red/
+├── tool_network.bat   # Interfaz principal
 ├── ps1/
-│   ├── script.ps1     # Lógica de procesamiento
-│   └── sqlite.exe     # Motor para consultas SQL
-└── README.md
-
+    ├── script.ps1     # Lógica de procesamiento para consulta SQL
+    └── sqlite.exe     # Motor para consultas SQL
+```
 
 ---
 
