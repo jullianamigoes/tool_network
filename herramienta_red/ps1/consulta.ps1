@@ -41,8 +41,6 @@ try {
 
     $RawData = & $SqliteExe -csv $RutaDB $DataQuery
 
-    $RawData = & $SqliteExe -csv $RutaDB $DataQuery
-
     # --- NUEVO: Configuración del archivo de exportación en el Escritorio ---
     $FechaActual = (Get-Date).ToString("yyyy-MM-dd")
     $NumRandom   = Get-Random -Minimum 1000 -Maximum 9999
