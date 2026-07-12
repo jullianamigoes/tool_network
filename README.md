@@ -1,6 +1,8 @@
 # Tool_Network
 
-### *Tool_Network es un conjunto de herramientas portables diseñadas para realizar auditorías de red y seguridad básicas en sistemas Windows. El proyecto utiliza un menú interactivo en Batch que actúa como interfaz para scripts avanzados en PowerShell, permitiendo realizar análisis rápidos sin necesidad de instalaciones previas ni configuraciones complejas.*
+*Tool_Network es un conjunto de herramientas portables diseñadas para realizar auditorías de red y seguridad básicas en sistemas Windows.
+Funciona como Suite de Auditoría de Red Local, Análisis de Procesos y Recolección de Evidencias (Triage).
+El proyecto utiliza un menú interactivo en Batch que actúa como interfaz para scripts avanzados en PowerShell, permitiendo realizar análisis rápidos sin necesidad de instalaciones previas ni configuraciones complejas.*
 
 ---
 
@@ -68,11 +70,23 @@ herramienta_red/
 
 ## Imágenes
 
-![img_1]()
+![img_1](https://github.com/jullianamigoes/assets_proj/blob/main/assets/tool_network_img/herramienta.png)
 
 
-![img_2]()
+![img_2](https://github.com/jullianamigoes/assets_proj/blob/main/assets/tool_network_img/power_sql.png)
 
 
-![img_3]()
+![img_3](https://github.com/jullianamigoes/assets_proj/blob/main/assets/tool_network_img/menu.png)
+
+
+## Al seleccionar la opción 3 se **creará** un directorio llamado ***historial_navegacion*** 
+
+![img_4](https://github.com/jullianamigoes/assets_proj/blob/main/assets/tool_network_img/dir_creado.png)
+
+
+## Dentro del directorio creado se encontrará la copia del archivo de base de datos ***Chrome_History.db***
+
+- Cada vez que se realice una consulta al historial de navegaci+on con la **opción 4**, se ejecurará el script ***consulta.ps1*** que se encargará de conectar con sqlite.exe y realizar la consulta al archivo copiado.
+
+![img_5](https://github.com/jullianamigoes/assets_proj/blob/main/assets/tool_network_img/db_copy.png)
 
